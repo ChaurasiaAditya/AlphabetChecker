@@ -12,6 +12,12 @@ public class AlphabetChecker {
 
         // Initialize the Scanner Object
         Scanner scanner = new Scanner(System.in);
+
+        // Prompt the user to enter a character
+        System.out.println("Enter a character : ");
+
+        // Store the character entered by the user
+        char alphabet = scanner.next().charAt(0);
     }
     /**
      * Prints "vowel" if the input character is a vowel, "consonant" if the input character is a consonant,

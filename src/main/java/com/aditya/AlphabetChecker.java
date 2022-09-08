@@ -10,7 +10,8 @@ import java.util.Scanner;
 public class AlphabetChecker {
     public static void main(String[] args) {
 
-
+        // Initialize the Scanner Object
+        Scanner scanner = new Scanner(System.in);
     }
     /**
      * Prints "vowel" if the input character is a vowel, "consonant" if the input character is a consonant,

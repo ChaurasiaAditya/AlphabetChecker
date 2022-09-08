@@ -5,13 +5,16 @@
  */
 package com.aditya;
 
-public class AlphabetChecker {
+import java.util.Scanner;
 
+public class AlphabetChecker {
+    public static void main(String[] args) {
+
+
+    }
     /**
      * Prints "vowel" if the input character is a vowel, "consonant" if the input character is a consonant,
      * and "invalid" if the input character is neither a vowel nor a consonant.
-     *
-     * @param alphabet
      */
     public void printVowelOrConsonant(char alphabet) {
         if (alphabet == 'a' || (alphabet == 'e') || (alphabet == 'i') || (alphabet == 'o') || (alphabet == 'u')) {

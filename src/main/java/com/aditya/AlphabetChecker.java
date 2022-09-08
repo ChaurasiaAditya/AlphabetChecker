@@ -18,7 +18,11 @@ public class AlphabetChecker {
 
         // Store the character entered by the user
         char alphabet = scanner.next().charAt(0);
+
+        // call the method and Display the result
+        new AlphabetChecker().printVowelOrConsonant(alphabet);
     }
+
     /**
      * Prints "vowel" if the input character is a vowel, "consonant" if the input character is a consonant,
      * and "invalid" if the input character is neither a vowel nor a consonant.
